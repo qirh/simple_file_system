@@ -14,6 +14,7 @@ App is deployed to Vercel: https://simple-file-system.vercel.app/
 - No search or sort functionality for files/folders.
 - No Create/Edit/Delete files or folders. Just able to view.
 - No tests.
+- No mobile support.
 - No error handling, if a network call fails, the app will stop working, there are no re-tries or fallbacks.
 - The blob store:
     - It is kept open to the public, and all its contents are also public. This is done for the ease of development. However, that comes with a security risk. Also, the json was modified with the new `sourceLink` for the HTML files in blob storage.

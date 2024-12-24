@@ -2,6 +2,11 @@
     color: #0066cc !important;
 }
 
+span,
+a {
+    font-size: 0.7rem;
+}
+
 li a:hover {
     text-decoration: underline;
     cursor: pointer;
