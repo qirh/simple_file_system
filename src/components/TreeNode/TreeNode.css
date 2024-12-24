@@ -1,0 +1,8 @@
+.file-link {
+    color: #0066cc !important;
+}
+
+li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
